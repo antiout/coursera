@@ -61,7 +61,7 @@ class ListsSuite extends FunSuite {
    * }}}
    *
    * This situation can be improved by using a special equality operator
-   * `===` instead of `==` (this is only possible in ScalaTest). So if you
+   * '===' instead of '==' (this is only possible in ScalaTest). So if you
    * run the next test, ScalaTest will show the following output:
    *
    * {{{
@@ -69,7 +69,7 @@ class ListsSuite extends FunSuite {
    *    [info]   2 did not equal 3 (ListsSuite.scala:67)
    * }}}
    *
-   * We recommend to always use the `===` equality operator when writing tests.
+   * We recommend to always use the '===' equality operator when writing tests.
    */
   test("details why one plus one is not three") {
     assert(1 + 1 != 3) // Fix me, please!
